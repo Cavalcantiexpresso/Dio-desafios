@@ -48,7 +48,7 @@ body{
 
 .group{
   display: flex;
-  justify-content:space-between;
+  justify-content:row;
   align-items: center;
   flex-direction: column;
   background-color: #ffffff;
