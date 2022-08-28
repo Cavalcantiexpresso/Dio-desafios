@@ -26,4 +26,8 @@ function addTask(description) {
 	taskContainer.appendChild(taskLabel);
 
 	taskList.appendChild(taskContainer);
-}
+};
+
+//function myFunction() {
+//	document.getElementById("Limpar").style.color = "red";
+  //}
