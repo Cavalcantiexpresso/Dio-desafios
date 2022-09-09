@@ -1,0 +1,23 @@
+{
+  "name": "dio-desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cavalcantiexpresso/Dio-desafios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cavalcantiexpresso/Dio-desafios/issues"
+  },
+  "homepage": "https://github.com/Cavalcantiexpresso/Dio-desafios#readme",
+  "dependencies": {
+    "typescript": "^4.8.2"
+  }
+}
