@@ -1,50 +1,108 @@
 * {
-  font-family: "Open Sans", sans-serif;
-  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+  display: block;
+  padding: 20px 20px;
+}
+a:hover {
+  background-color: rgb(10, 5, 56);
+  color: rgba(7, 79, 173, 0.671);
+}
+
 body {
-  background-color: #f5e5e5;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("./medicos.jpg");
+  background-size: 100%;
+  
+  background-color: #fafafa;
+}
+ul {
+  list-style: none;
+  top: 70px;
+  width: 100%;
+  position: absolute;
 }
 
-.logo {
-  display: flex;
-  min-width: 100%;
-  min-height: 100%;
-  max-width: 300px;
-  max-height: 100%;
-  flex-wrap: wrap;
+img {
+  width: 40px;
 }
 
-h2 {
+input[type="checkbox"] {
+  display: none;
+}
+nav {
+  background-color: rgba(16, 16, 16, 0.5);
+  color: azure;
+  width: 350px;
+  height: 100%;
+  left: -350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+input[type="checkbox"]:checked ~ nav {
+  transform: translateX(350px);
+}
+
+label {
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+}
+footer {
+  position: flex;
+  justify-content: end;
+}
+
+#nm-top {
+  margin-left: 350px;
+  text-decoration: overline;
+  text-align: start;
   margin-top: 15px;
 }
-
-.textto1 {
-  text-align: justify;
-  margin-left: 7px;
+content {
+  justify-content: center;
+  text-align: center;
 }
-
-.titulo1 {
-  align-self: start;
-  margin-top: 25px;
+.fixarRodape {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
 }
-
-.lista {
-  padding: 3px;
-  margin-top: initial;
-  text-align: unset;
-  font-family: arial;
-  font-size: 16px;
-}
-h6 {
-  font-size: 16px;
-}
-.Era_Vargas {
+#container {
+  bottom: 3px;
+  position: fixed;
+  width: 75%;
+  text-align: center;
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  width: 350px;
+  top: 215px;
+  left: 190px;
 }
-#header-img {
-  width: 250px;
+.container2 {
+    bottom: 3px;
+    position: fixed;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 190px;
+  }
+  
+table, th, td {
+    border: 1px;
+    border-collapse: collapse;
+}
+.h1{
+  margin-top: 35px;
+
+}
+h4{
+  width: 80%;
+  font-style: italic;
+  color: -wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,#fecda5 0%,#fe2d2d 50%,#6b003e 100%);
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento Médico</title>
+</head>
+
+<body>
+    <div class="card-panel teal lighten-2">
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Emter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label id="email-label" for="e-mail">E-mail</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Emter your Email"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label id="number-label" for="Number">
+                    <span>Idade<span class="clue">(opcional)</span>
+                </label>
+                <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <p>Escolha uma especialidade Médica</p>
+                <div class=" row">
+                    <select  id="dropdown" name="role" class="from-control" required>
+                        <option disabled selected value>selecione aqui</option>
+                        <option value="student">Clínica geral</option>
+                        <option value="job">Psicologia</option>
+                        <option value="learner">Pediatria</option>
+                        <option value="preferNo">Oftalmologia</option>
+
+                    </select>
+                </div>
+            </div>
+
+           
+
+
+            
+                <div>
+                    <p>agendamento de consulta
+                        
+
+                    
+                </div>
+                <div class="form-group">
+                    <p>Conte-nos Aqui um pouco do que está sentindo?</p>
+                    <textarea id="comments" class="input-textarea" name="comment"
+                        placeholder="Enter your comment here..."></textarea>
+                </div>
+
+
+                <div class="form-group">
+                    <button type="submit" id="submit" class="send-button ">
+                        Enviar</button>
+                </div>
+        </form>
+</body>
+
+</html>
